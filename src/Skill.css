@@ -1,0 +1,38 @@
+.heading {
+    margin: 2rem 0;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 9%;
+    gap: 2rem;
+}
+
+.images .img {
+    flex: 1 1 30rem;
+    text-align: center;
+    padding: 2rem;
+    border: .2rem solid #fff;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.images img {
+    width: 15rem;
+    cursor: pointer;
+}
+
+.images .img:hover img {
+    transform: scale(.8);
+}
+
+.images .img .skill {
+    color: #fff;
+    font-size: 1.6rem;
+}

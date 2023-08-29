@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+.Home-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: .9rem 9%;
+    height: 80vh;
+}
+
+.Home-container .Home-content{
+    font-family: 'Nunito', sans-serif;
+    flex: 1 1 40rem;
+    color: #fff;
+}
+
+.Home-container .Home-content .hello{
+    font-size: 1.8rem;
+}
+
+.Home-container .Home-content .name{
+    font-size: 4rem;
+    margin: .4rem 0;
+}
+
+.Home-container .Home-content .skill{
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    margin-bottom: .6rem;
+}
+
+.Home-container .Home-content span{
+    font-size: 3.4rem;
+    color: #a084ca;
+    text-transform: uppercase;
+}
+
+.Home-container .Home-image{
+    flex: 1 1 20rem;
+}
+
+.Home-container .Home-image img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.Home-container .Home-content p{
+    font-size: 1.6rem;
+    padding-right: 7rem;
+}
+.social-media ul {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+  
+  .social-media ul li {
+    text-align: left;
+  }
+
+  .icon{
+    width: 4rem;
+  }
+  
+  .fiverr{
+    width: 5rem;
+  }
+  .insta{
+    width: 5rem;
+  }
